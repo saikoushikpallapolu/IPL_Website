@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore heavy raw dataset folders and archives
+data/raw/all_matches.csv.zip
+data/raw/domestic_leagues/
+data/raw/foreign_leagues/
+data/raw/ipl_performance/
+data/raw/ipl_auctions/auction_2025.zip
+data/raw/ipl_auctions/historical_auctions.csv.csv
+data/raw/ipl_auctions/ipl2025_auctionplayerlist.csv
+
+# Ignore heavy processed files
+data/processed/all_matches.csv
+data/processed/bbl_deliveries.csv
+data/processed/cpl_deliveries.csv
+data/processed/hundred_deliveries.csv
+data/processed/ipl_match_deliveries.csv
+data/processed/psl_deliveries.csv
+data/processed/sa20_deliveries.csv
+data/processed/smat_deliveries.csv
+data/processed/t20i_deliveries.csv
